@@ -27,5 +27,38 @@ body {
       padding: 8px 11px;
       color: blue;
     }
+    li.selected {
+      background-color: blue;
+      color: white;
+    }
+  }
+}
+.boxes {
+  display:flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 1116px;
+  margin: auto;
+  .box {
+    height: 248px;
+    width: 328px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    .content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: darkgray;
+      color: gray;
+      font-size: 32px;
+      height: 100%;
+    }
+    .desc {
+      font-size: 13px;
+      margin: 0 auto;
+      padding-top: 8px;
+      line-height: 24px;
+      text-align: center;
+    }
   }
 }
